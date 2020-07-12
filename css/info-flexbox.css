@@ -1,0 +1,72 @@
+/*Most of this CSS document is adapted from Paul Brokenshire's lectures on 06/07/2020, with help from W3Schools*/
+
+*, *::after, *::before{
+	box-sizing: border-box;
+}
+
+.box {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:space-around;
+}
+
+.box-item-hero{
+	flex: 1 1 100%;
+	position: relative;
+}
+
+.box-item-step{
+	flex: 1 1 20%;
+	margin: 0 2rem 0 2rem;
+	background-color: white;
+}
+
+.box-item-footer{
+	flex: 1 1 30%;
+	margin: 1rem;
+	align-self: flex-start;
+}
+
+.box-item-pages{
+	flex: 1 1 50%;
+	align-self: flex-start;
+	position: relative;
+}
+
+.box-item-copyright{
+	flex: 1 1 40%;
+	text-align: right;
+	align-self: flex-end;
+}
+
+.box-item-rcg{
+	flex: 1 1 30%;
+	margin: 1rem;
+	align-self: flex-start;
+	flex-basis: 0;
+}
+
+@media (max-width:900px){
+	.box-item-rcg, .box-item-step{
+		flex:100%;
+	}
+	footer ul{
+		margin: 0;
+		padding: 0;
+	}
+	.rcg-img{
+		width: calc(100% - 2rem); /*https://stackoverflow.com/questions/10378292/is-it-possible-to-do-mathematics-inside-css*/
+	}
+}
+
+@media (max-width:500px){
+	#hero h1{
+		font-size: 2.5rem;
+	}
+	.page-link{
+		font-size: 1.5rem;
+	}
+	.box-item-footer{
+		flex:100%;
+	}
+}
