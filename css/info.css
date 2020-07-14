@@ -59,7 +59,7 @@ p, ul, ol{
  margin-right: 1rem;
 }
 
-ul{ /*https://www.w3schools.com/cssref/pr_list-style-type.asp*/
+footer ul{ /*https://www.w3schools.com/cssref/pr_list-style-type.asp*/
  list-style-type: none;
 }
 
