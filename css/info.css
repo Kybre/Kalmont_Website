@@ -63,8 +63,8 @@ footer ul{ /*https://www.w3schools.com/cssref/pr_list-style-type.asp*/
  list-style-type: none;
 }
 
-li{ https://stackoverflow.com/questions/19254411/how-do-i-set-vertical-space-between-list-items
-  margin: 1em
+li{ /*https://stackoverflow.com/questions/19254411/how-do-i-set-vertical-space-between-list-items*/
+  margin: 1em;
 }
 
 .hero-text{ /*Adapted From Paul Brokenshire's lecture on 06/07/2020*/
