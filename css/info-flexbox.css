@@ -50,10 +50,6 @@
 	.box-item-rcg, .box-item-step{
 		flex:100%;
 	}
-	footer ul{
-		margin: 0;
-		padding: 0;
-	}
 	.rcg-img{
 		width: calc(100% - 2rem); /*https://stackoverflow.com/questions/10378292/is-it-possible-to-do-mathematics-inside-css*/
 	}

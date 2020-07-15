@@ -59,10 +59,6 @@ p, ul, ol{
  margin-right: 1rem;
 }
 
-footer ul{ /*https://www.w3schools.com/cssref/pr_list-style-type.asp*/
- list-style-type: none;
-}
-
 li{ /*https://stackoverflow.com/questions/19254411/how-do-i-set-vertical-space-between-list-items*/
   margin: 1em;
 }
@@ -163,22 +159,6 @@ a{
  text-decoration: none;
 }
 
-nav a{
- display: inline-block;
- color: white;
- background-color: #2B2E41;
- font-size: 1.25rem;
- text-decoration: none;
- margin-left: 1rem;
-
- padding: 0.25em;
-}
-
-nav a.navbar:hover, nav a.navbar:focus{
- color: rgb(0, 0, 0);
- background-color: rgb(150, 150, 150);
-}
-
 header{
  margin: 0 0rem 0rem 0rem;
  background-color: #2B2E41;
@@ -188,25 +168,6 @@ header{
 header h1 a{
  margin: 0 1rem 0.25rem 0rem;
  color: white;
-}
-
-footer{
- margin: 0;
- background-color: #2B2E41;
- color: white;
- padding: 1rem;
-}
-
-footer h2, footer a{
-   color: white;
-}
-
-footer a{
- text-decoration: underline;
-}
-
-footer a:hover, footer a:focus{
- color: #DDDDDD;
 }
 
 .socials-img{
