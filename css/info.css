@@ -159,17 +159,6 @@ a{
  text-decoration: none;
 }
 
-header{
- margin: 0 0rem 0rem 0rem;
- background-color: #2B2E41;
- padding: 0.5rem;
-}
-
-header h1 a{
- margin: 0 1rem 0.25rem 0rem;
- color: white;
-}
-
 .socials-img{
  vertical-align: middle;
 }
