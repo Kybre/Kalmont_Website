@@ -17,7 +17,7 @@ body{
     margin-bottom: 0;
 }
 
-.box{
+.nav-bar{
     display:flex;
     flex-wrap:wrap;
 
@@ -83,13 +83,6 @@ footer{
 
 .footer ul{
     list-style-type: none;
-}
-
-.erl{
- background-color: #ff5555;
- display: inline-block;
- padding: 0.5rem;
- border-radius: 1rem; /*https://www.w3schools.com/css/css3_borders.asp*/
 }
 
 .emergency-line-and-copyright{
