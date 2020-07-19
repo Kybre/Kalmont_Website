@@ -5,25 +5,27 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="news.css">
+		
+	<!-- Lato font from google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
 	<title>Kalmont News</title>
-	<link href="css/header-footer.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 	<header>
-			<nav>
-				 <ul class="box nav-bar">
-						<li class="nav-bar-item nav-bar-home"><a href="index.html">KMSRT</a></li>
-						<li class="nav-bar-item menu"><a href="news.html">Kalmont News</a></li>
-						<li class="nav-bar-item menu"><a href="about.html">About Us</a></li>
-						<li class="nav-bar-item menu"><a href="avalanche.html">Avalanche Safety</a></li>
-						<li class="nav-bar-item menu"><a href="hypothermia.html">Hypothermia</a></li>
-						<li class="nav-bar-item menu"><a href="mountain.html">Mountain Safety</a></li>
-				</ul>
-			</nav>
+		<nav>
+			<ul class="box nav-bar">
+				<li class="nav-bar-item nav-bar-home"><a href="index.html">KMSRT</a></li>
+				<li class="nav-bar-item menu"><a href="news.html">Kalmont News</a></li>
+				<li class="nav-bar-item menu"><a href="about.html">About Us</a></li>
+				<li class="nav-bar-item menu"><a href="avalanche.html">Avalanche Safety</a></li>
+				<li class="nav-bar-item menu"><a href="hypothermia.html">Hypothermia</a></li>
+				<li class="nav-bar-item menu"><a href="mountain.html">Mountain Safety</a></li>
+			</ul>
+		</nav>
 	</header>
 
 	<!--top image and text-->
@@ -33,80 +35,84 @@
 
 
 	<!--Recent News Section-->
-	<section>
-		<h2>Recent News</h2>
+	<section class="recent-news">
+		<h2 class="recent-news-title">Recent News</h2>
+
+		<!-- flexbox container for articles-->
+		<div class="box">
 
 		<!--article 1-->
-		<a href="newsKalmontMasks.html">
+		<a href="newsKalmontMasks.html" class="box-item-1of2">
 		<article>
 			<img src="img/kalmontMask.png" alt="Face mask mockups made by Taylor using redbubble editor">
-			<h2>New! KMSRT face masks on sale!</h2>
-			<p>We at the Kalmont Mountain Safety and Rescue Team are proud to announce that starting tomorrow, _____, we will be offering new, KMSRT branded face masks! Show your Kalmont spirit in two colours: Kalmont Blue and Rescue Red, in sizes for children and...</p>
-			<p>June 1, 2020</p>
+			<h2 class="article-text">New! KMSRT face masks on sale!</h2>
+			<p class="article-text">We at the Kalmont Mountain Safety and Rescue Team are proud to announce that starting tomorrow, _____, we will be offering new, KMSRT branded face masks! Show your Kalmont spirit in two colours: Kalmont Blue and Rescue Red, in sizes for children and...</p>
+			<p class="article-text">June 1, 2020</p>
 		</article>
 		</a>
 
 		<!--article 2-->
-		<a href="newsCovidClosure.html">
+		<a href="newsCovidClosure.html" class="box-item-1of2">
 		<article>
 			<img src="img/news1.jpg" alt="A natural green forest. By Paul Gilmore. Retrieved from https://unsplash.com/photos/4i97n6L0XuY">
-			<h2>Kalmont Ski Resort temporarily closes due to COVID-19</h2>
-			<p>We are sorry to announce that we have decided to temporarily close all of our hiking trails and facilities, due to growing concerns of COVID-19. Closures are scheduled to take place starting next week, ____. We aim to reopen our resort in...</p>
-			<p>May 15, 2020</p>
+			<h2 class="article-text">Kalmont Ski Resort temporarily closes due to COVID-19</h2>
+			<p class="article-text">We are sorry to announce that we have decided to temporarily close all of our hiking trails and facilities, due to growing concerns of COVID-19. Closures are scheduled to take place starting next monday week, May 18th. We aim to reopen our resort in...</p>
+			<p class="article-text">May 15, 2020</p>
 		</article>
 		</a>
 
 		<!--article 3-->
-		<a href="newsCovidDonation.html">
+		<a href="newsCovidDonation.html" class="box-item-1of2">
 		<article>
 			<img src="img/news4.jpg" alt="A nice natural looking lodge. By Daniel Cox. Retrieved from https://unsplash.com/photos/UzCh9tp1VLs">
-			<h2>KMSRT Donates $20000 to the Kalmont COVID-19 Relief Fund</h2>
-			<p></p>
-			<p>May 2, 2020</p>
+			<h2 class="article-text">KMSRT Donates $20000 to the Kalmont COVID-19 Relief Fund</h2>
+			<p class="article-text"></p>
+			<p class="article-text">May 2, 2020</p>
 		</article>
 		</a>
 
 		<!--article 4-->
-		<a href="newsRegionalReport.html">
+		<a href="newsRegionalReport.html" class="box-item-1of2">
 		<article>
 			<img src="img/mountain_notes.png" alt="A snowy ski trail seen from overhead. By Riccardo Lapi. Retrieved from https://unsplash.com/photos/u26M0jqr-QA">
-			<h2>Regional Report, April 2020</h2>
-			<p>In April, the average temperature in the Kalmont Mountain Range was 6C with a high of 15 and a low for the month  of -10. Out of 30 days in April, a record 20 of them were rainy.<br> Despite the weather, the Kalmont Ski Resort...</p>
-			<p>May 1, 2020</p>
+			<h2 class="article-text">Regional Report, April 2020</h2>
+			<p class="article-text">In April, the average temperature in the Kalmont Mountain Range was 6C with a high of 15 and a low for the month  of -10. Out of 30 days in April, a record 20 of them were rainy.<br> Despite the weather, the Kalmont Ski Resort...</p>
+			<p class="article-text">May 1, 2020</p>
 		</article>
 		</a>
+
+		</div><!--end of.box-->
 
 	</section>
 
 	<footer class="box footer">
+			<!--Social Media Links-->
+			<div class="box-item-footer">
+				<h3>Find Us On</h3>
+				<ul>
+					<li class="sm-handle"> <img src="img/instagram.png" alt="the Instagram logo; designed by Instagram" width="70" height="70" class="sm-icon">Instagram @KMSRT</li>
+					<li class="sm-handle"> <img src="img/facebook.png" alt="the Facebook logo; designed by Facebook" width="70" height="70" class="sm-icon">Facebook @KMSRT</li>
+					<li class="sm-handle"><img src="img/twitter.png" alt="the Twitter logo; designed by Twitter" width="70" height="70" class="sm-icon">Twitter @KMSRT</li>
+				</ul>
+			</div><!--end of .box-item-footer-->
 
-		<!--Social Media Links-->
-		<div class="box-item-footer">
-			<h3>Find Us On</h3>
-			<ul>
-				<li class="sm-handle"> <img src="images/instagram.png" alt="the Instagram logo; designed by Instagram" width="70" height="70" class="sm-icon">Instagram @KMSRT</li>
-				<li class="sm-handle"> <img src="images/facebook.png" alt="the Facebook logo; designed by Facebook" width="70" height="70" class="sm-icon">Facebook @KMSRT</li>
-				<li class="sm-handle"><img src="images/twitter.png" alt="the Twitter logo; designed by Twitter" width="70" height="70" class="sm-icon">Twitter @KMSRT</li>
-			</ul>
-		</div><!--end of .box-item-footer-->
+			<!--Contact Info-->
+			<div class="box-item-footer">
+				<h3>Contact Us</h3>
+				<ul>
+					<li>Office Number: +1 604-501-1353</li>
+					<li>Crisis Number: +1 604-310-1010</li>
+					<li>Email: wintersafety@kmsrt.kal</li>
+				</ul>
+			</div><!-- end of .box-item-footer-->
 
-		<!--Contact Info-->
-		<div class="box-item-footer">
-			<h3>Contact Us</h3>
-			<ul>
-				<li>Office Number: +1 604-501-1353</li>
-				<li>Crisis Number: +1 604-310-1010</li>
-				<li>Email: wintersafety@kmsrt.kal</li>
-			</ul>
-		</div><!-- end of .box-item-footer-->
+			<!--Emergency Rescue Line-->
+			<div class="box-item-footer emergency-line-and-copyright">
+				<h3>Emergency Rescue Line: +1 778-782-411</h3>
 
-		<!--Emergency Rescue Line-->
-		<div class="box-item-footer emergency-line-and-copyright">
-			<h3>Emergency Rescue Line: +1 778-782-411</h3>
-
-			<!--Copyright Info-->
-			<h5 class="copyright-info">©KMSRT2020</h5>
-		</div><!--end of .box-item-footer-->
+				<!--Copyright Info-->
+				<h5 class="copyright-info">©KMSRT2020</h5>
+			</div><!--end of .box-item-footer-->
 	</footer>
 
 </body>
