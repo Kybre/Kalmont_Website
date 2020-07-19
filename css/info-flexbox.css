@@ -46,7 +46,7 @@
 	flex-basis: 0;
 }
 
-@media (max-width:900px){
+@media (max-width:60rem){
 	.box-item-rcg, .box-item-step{
 		flex:100%;
 	}
@@ -55,7 +55,7 @@
 	}
 }
 
-@media (max-width:500px){
+@media (max-width:35rem){
 	#hero h1{
 		font-size: 2.5rem;
 	}
