@@ -1,62 +1,74 @@
 <!doctype html>
+<!-- CITATION INFO: All code written myself, but with heavy reference of the example exercises done in IAT235 lectures, and additional html and css learned from w3schools and html5doctor. All images cited in alt-->
 
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/header-footer.css" rel="stylesheet">
+		<link href="css/newsPage.css" rel="stylesheet" >
+
+		<!-- Lato font from google fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
 		<title>Kalmont Ski Resort temporarily closes due to COVID-19</title>
-		<link href="css/header-footer.css" rel="stylesheet">
-		<link rel="stylesheet" href="css/newsPage.css">
-		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
 	</head>
 
 	<body>
 
 		<header>
-				<nav>
-					 <ul class="nav-bar">
-							<li class="nav-bar-item nav-bar-home"><a href="index.html">KMSRT</a></li>
-							<li class="nav-bar-item menu"><a href="news.html">Kalmont News</a></li>
-							<li class="nav-bar-item menu"><a href="about.html">About Us</a></li>
-							<li class="nav-bar-item menu"><a href="avalanche.html">Avalanche Safety</a></li>
-							<li class="nav-bar-item menu"><a href="hypothermia.html">Hypothermia</a></li>
-							<li class="nav-bar-item menu"><a href="mountain.html">Mountain Safety</a></li>
-					</ul>
-				</nav>
+			<nav>
+				<ul class="nav-bar">
+					<li class="nav-bar-item nav-bar-home"><a href="index.html">KMSRT</a></li>
+					<li class="nav-bar-item menu"><a href="news.html">Kalmont News</a></li>
+					<li class="nav-bar-item menu"><a href="about.html">About Us</a></li>
+					<li class="nav-bar-item menu"><a href="avalanche.html">Avalanche Safety</a></li>
+					<li class="nav-bar-item menu"><a href="hypothermia.html">Hypothermia</a></li>
+					<li class="nav-bar-item menu"><a href="mountain.html">Mountain Safety</a></li>
+				</ul>
+			</nav>
 		</header>
 
 		<!--main article-->
-		<article>
+		<article class="main-article">
 			<h1>Kalmont Ski Resort temporarily closes due to COVID-19</h1>
 
-			<img src="img/covidClosureTopic.png" alt="A natural green forest. By Paul Gilmore. Retrieved from https://unsplash.com/photos/4i97n6L0XuY" width="1200" height="670">
+			<section class="image-area">
+				<img src="img/news1.jpg" alt="A natural green forest. By Paul Gilmore. Retrieved from https://unsplash.com/photos/4i97n6L0XuY" class=main-image>
+			</section>
 
-			<h3><em>Published May 15, 2020</em></h3>
+			<h3 class="main-article-text"><em>Published May 15, 2020</em></h3>
 
-			<p>We are sorry to announce that we have decided to temporarily close all of our hiking trails and facilities, due to growing concerns of COVID-19. Closures are scheduled to take place starting Monday next week, May 18th. We aim to reopen our resort in August of this year, but will delay our reopening depending on the severity of the pandemic at that time.
+			<p class="main-article-text">We are sorry to announce that we have decided to temporarily close all of our hiking trails and facilities, due to growing concerns of COVID-19. Closures are scheduled to take place starting Monday next week, May 18th. We aim to reopen our resort in August of this year, but will delay our reopening depending on the severity of the pandemic at that time.</p>
 
-			<p>While we are saddened to have to end the season early, please know we take health concerns like these seriously, as the safety and wellbeing of our guests and staff are of utmost importance. We will keep you up to date on all the latest developments of this situation, as well as news of eventual reopening here on our site. Join our email list to be notified on every post.</p>
+			<p class="main-article-text">While we are saddened to have to end the season early, please know we take health concerns like these seriously, as the safety and wellbeing of our guests and staff are of utmost importance. We will keep you up to date on all the latest developments of this situation, as well as news of eventual reopening here on our site. Join our email list to be notified on every post.</p>
 
-			<p>We hope to see you on our trails again soon, happy and healthy!</p>
+			<p class="main-article-text">We hope to see you on our trails again soon, happy and healthy!</p>
+
 		</article>
 
 		<!--other articles section-->
-		<section>
-			<h2>Other Articles</h2>
+		<section class="other-articles">
+		<h2>Other Articles</h2>
 
+		<div class="box other-news-container">
 			<!--other article 1-->
-			<figure>
-				<img src="img/kalmontMask.png" alt="Face mask mockups made by Taylor using redbubble editor">
-				<figcaption><a href="newsKalmontMasks.html">New! KMSRT face masks on sale!</a></figcaption>
-			</figure>
+			<div class="other-news-item">
+				<figure>
+					<img class="other-article-image" src="img/kalmontMask.png" alt="Face mask mockups made by Taylor using redbubble editor">
+					<figcaption class="other-article-link"><a href="newsKalmontMasks.html">New! KMSRT face masks on sale!</a></figcaption>
+				</figure>
+			</div> <!--end of div.box-item-1of2-->
 
 			<!--other article 2-->
-			<figure>
-				<img src="img/news4.jpg" alt="A nice natural looking lodge. By Daniel Cox. Retrieved from https://unsplash.com/photos/UzCh9tp1VLs">
-				<figcaption><a href="newsCovidDonation.html">KMSRT Donates $20,000 to the Kalmont COVID-19 Relief Fund</a></figcaption>
-			</figure>
+			<div class="other-news-item">
+				<figure>
+					<img class="other-article-image" src="img/covidDonation.png" alt="A nice natural looking lodge. By Daniel Cox. Retrieved from https://unsplash.com/photos/UzCh9tp1VLs">
+					<figcaption class="other-article-link"><a href="newsCovidDonation.html">KMSRT Donates $20,000 to the Kalmont COVID-19 Relief Fund</a></figcaption>
+				</figure>
+			</div> <!-- end of .box-item-1of2-->
+		</div> <!--end of div.box-->
 		</section>
 
 		<footer class="box footer">

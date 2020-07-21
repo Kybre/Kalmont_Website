@@ -1,63 +1,73 @@
 <!doctype html>
+<!-- CITATION INFO: All code written myself, but with heavy reference of the example exercises done in IAT235 lectures, and additional html and css learned from w3schools and html5doctor. All images cited in alt-->
 
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/header-footer.css" rel="stylesheet">
+		<link href="css/newsPage.css" rel="stylesheet" >
+
+		<!-- Lato font from google fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
 		<title>KMSRT Donates $20000 to the Kalmont COVID-19 Relief Fund</title>
-		<link href="css/header-footer.css" rel="stylesheet">
-		<link rel="stylesheet" href="css/newsPage.css">
-		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
 	</head>
 
 	<body>
 
 		<header>
-				<nav>
-					 <ul class="nav-bar">
-							<li class="nav-bar-item nav-bar-home"><a href="index.html">KMSRT</a></li>
-							<li class="nav-bar-item menu"><a href="news.html">Kalmont News</a></li>
-							<li class="nav-bar-item menu"><a href="about.html">About Us</a></li>
-							<li class="nav-bar-item menu"><a href="avalanche.html">Avalanche Safety</a></li>
-							<li class="nav-bar-item menu"><a href="hypothermia.html">Hypothermia</a></li>
-							<li class="nav-bar-item menu"><a href="mountain.html">Mountain Safety</a></li>
-					</ul>
-				</nav>
+			<nav>
+				<ul class="nav-bar">
+					<li class="nav-bar-item nav-bar-home"><a href="index.html">KMSRT</a></li>
+					<li class="nav-bar-item menu"><a href="news.html">Kalmont News</a></li>
+					<li class="nav-bar-item menu"><a href="about.html">About Us</a></li>
+					<li class="nav-bar-item menu"><a href="avalanche.html">Avalanche Safety</a></li>
+					<li class="nav-bar-item menu"><a href="hypothermia.html">Hypothermia</a></li>
+					<li class="nav-bar-item menu"><a href="mountain.html">Mountain Safety</a></li>
+				</ul>
+			</nav>
 		</header>
 
 		<!--main article-->
-		<article>
+		<article class="main-article">
 			<h1>KMSRT Donates $20000 to the Kalmont COVID-19 Relief Fund</h1>
 
-			<img src="img/news4.jpg" alt="A nice natural looking lodge. By Daniel Cox. Retrieved from https://unsplash.com/photos/UzCh9tp1VLs">
+			<section class="image-area">
+				<img src="img/covidDonation.png" alt="A nice natural looking lodge. By Daniel Cox. Retrieved from https://unsplash.com/photos/UzCh9tp1VLs" class="main-image">
+			</section>
 
-			<h3><em>Published May 2, 2020</em></h3>
+			<h3 class="main-article-text"><em>Published May 2, 2020</em></h3>
 
-			<p>The Kalmont Mountain Safety and Rescue Team has donated $20,000 directly to the Kalmont COVID-19 Relief Fund in support of the government’s effort to combat COVID-19 within the region of Kalmont.</p>
+			<p class="main-article-text">The Kalmont Mountain Safety and Rescue Team has donated $20,000 directly to the Kalmont COVID-19 Relief Fund in support of the government’s effort to combat COVID-19 within the region of Kalmont.</p>
 
-			<p>Since February, more than $200,000 has been donated to the Kalmont COVID-19 Relief Fund. The local government directs this money to the appropriate organizations, in an attempt to have the region of Kalmont come together and combat COVID-19 together. The COVID-19 Relief Fund alone has allowed organizations to supply over 1 million protective masks, as well as tens of thousands of sets of protective equipment for our local healthcare workers.</p>
+			<p class="main-article-text">Since February, more than $200,000 has been donated to the Kalmont COVID-19 Relief Fund. The local government directs this money to the appropriate organizations, in an attempt to have the region of Kalmont come together and combat COVID-19 together. The COVID-19 Relief Fund alone has allowed organizations to supply over 1 million protective masks, as well as tens of thousands of sets of protective equipment for our local healthcare workers.</p>
 
-			<p>In a statement to the press, KMSRT Founder and President Dr. Victor Freeze said, “COVID-19 has placed us in troubling times, and it truly is disheartening to see this impact other people’s enjoyment of the outdoors. We hope the city of Kalmont can come together and overcome these turbulent times together, and build a better tomorrow.”</p>
-
+			<p class="main-article-text">In a statement to the press, KMSRT Founder and President Dr. Victor Freeze said, “COVID-19 has placed us in troubling times, and it truly is disheartening to see this impact other people’s enjoyment of the outdoors. We hope the city of Kalmont can come together and overcome these turbulent times together, and build a better tomorrow.”</p>
 		</article>
 
 		<!--other articles section-->
-		<section>
-			<h2>Other Articles</h2>
+		<section class="other-articles">
+		<h2>Other Articles</h2>
 
+		<div class="box other-news-container">
 			<!--other article 1-->
-			<figure>
-				<img src="img/kalmontMask.png" alt="Face mask mockups made by Taylor using redbubble editor">
-				<figcaption><a href="newsKalmontMasks.html">New! KMSRT face masks on sale!</a></figcaption>
-			</figure>
+			<div class="other-news-item">
+				<figure>
+					<img class="other-article-image" src="img/kalmontMask.png" alt="Face mask mockups made by Taylor using redbubble editor">
+					<figcaption class="other-article-link"><a href="newsKalmontMasks.html">New! KMSRT face masks on sale!</a></figcaption>
+				</figure>
+			</div> <!--end of div.box-item-1of2-->
 
 			<!--other article 2-->
-			<figure>
-				<img src="img/news1.jpg" alt="A natural green forest. By Paul Gilmore. Retrieved from https://unsplash.com/photos/4i97n6L0XuY">
-				<figcaption><a href="newsCovidClosure.html">Kalmont Ski Resort temporarily closes due to COVID-19</a></figcaption>
-			</figure>
+			<div class="other-news-item">
+				<figure>
+					<img class="other-article-image" src="img/covidClosure.png" alt="A natural green forest. By Paul Gilmore. Retrieved from https://unsplash.com/photos/4i97n6L0XuY">
+					<figcaption class="other-article-link"><a href="newsCovidClosure.html">Kalmont Ski Resort temporarily closes due to COVID-19</a></figcaption>
+				</figure>
+			</div> <!-- end of .box-item-1of2-->
+		</div> <!--end of div.box-->
 		</section>
 
 		<footer class="box footer">
