@@ -6,7 +6,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="css/header-footer.css" rel="stylesheet">
-		<link href="css/newsPage.css" rel="stylesheet" >
+		<link href="css/grid.css" rel="stylesheet">
+		<!--<link href="css/newsPage.css" rel="stylesheet" >-->
 
 		<!-- Lato font from google fonts -->
 		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -31,44 +32,48 @@
 		</header>
 
 		<!--main article-->
-		<article class="main-article">
-			<h1>Kalmont Ski Resort temporarily closes due to COVID-19</h1>
+		<section id="main-article">
+			<div class="news-background">
+				<h1 class="news-title">Kalmont Ski Resort temporarily closes due to COVID-19</h1>
+			</div>
+				<div class="color-bar">
+					<img src="img/news1.jpg" alt="A natural green forest. By Paul Gilmore. Retrieved from https://unsplash.com/photos/4i97n6L0XuY" class="news-image">
+				</div>
+			<div class="news-background">
+				<h3><em>Published May 15, 2020</em></h3>
 
-			<section class="image-area">
-				<img src="img/news1.jpg" alt="A natural green forest. By Paul Gilmore. Retrieved from https://unsplash.com/photos/4i97n6L0XuY" class=main-image>
-			</section>
+				<p>We are sorry to announce that we have decided to temporarily close all of our hiking trails and facilities, due to growing concerns of COVID-19. Closures are scheduled to take place starting Monday next week, May 18th. We aim to reopen our resort in August of this year, but will delay our reopening depending on the severity of the pandemic at that time.</p>
 
-			<h3 class="main-article-text"><em>Published May 15, 2020</em></h3>
+				<p>While we are saddened to have to end the season early, please know we take health concerns like these seriously, as the safety and wellbeing of our guests and staff are of utmost importance. We will keep you up to date on all the latest developments of this situation, as well as news of eventual reopening here on our site. Join our email list to be notified on every post.</p>
+				<p>We hope to see you on our trails again soon, happy and healthy!</p>
+			</div>
 
-			<p class="main-article-text">We are sorry to announce that we have decided to temporarily close all of our hiking trails and facilities, due to growing concerns of COVID-19. Closures are scheduled to take place starting Monday next week, May 18th. We aim to reopen our resort in August of this year, but will delay our reopening depending on the severity of the pandemic at that time.</p>
+			</div>
 
-			<p class="main-article-text">While we are saddened to have to end the season early, please know we take health concerns like these seriously, as the safety and wellbeing of our guests and staff are of utmost importance. We will keep you up to date on all the latest developments of this situation, as well as news of eventual reopening here on our site. Join our email list to be notified on every post.</p>
+		</section>
 
-			<p class="main-article-text">We hope to see you on our trails again soon, happy and healthy!</p>
-
-		</article>
+		<div class="break">
+		</div>
 
 		<!--other articles section-->
 		<section class="other-articles">
-		<h2>Other Articles</h2>
-
-		<div class="box other-news-container">
-			<!--other article 1-->
-			<div class="other-news-item">
-				<figure>
-					<img class="other-article-image" src="img/kalmontMask.png" alt="Face mask mockups made by Taylor using redbubble editor">
-					<figcaption class="other-article-link"><a href="newsKalmontMasks.html">New! KMSRT face masks on sale!</a></figcaption>
-				</figure>
-			</div> <!--end of div.box-item-1of2-->
-
-			<!--other article 2-->
-			<div class="other-news-item">
-				<figure>
-					<img class="other-article-image" src="img/covidDonation.png" alt="A nice natural looking lodge. By Daniel Cox. Retrieved from https://unsplash.com/photos/UzCh9tp1VLs">
-					<figcaption class="other-article-link"><a href="newsCovidDonation.html">KMSRT Donates $20,000 to the Kalmont COVID-19 Relief Fund</a></figcaption>
-				</figure>
-			</div> <!-- end of .box-item-1of2-->
-		</div> <!--end of div.box-->
+			<div class="color-bar">
+				<h2 class="box-header">Other Articles</h2>
+			</div>
+			<div class="box">
+				<div class="box-item-1of2">
+					<a href="newsKalmontMasks.html">
+					<img src="img/kalmontMask.png" alt="Face mask mockups made by Taylor using redbubble editor" class="info-image">
+					<figcaption><h1>New! KMSRT face masks on sale!</h1></figcaption>
+					</a>
+				</div>
+				<div class="box-item-1of2">
+					<a href="newsCovidDonation.html">
+					<img src="img/avalanche_hero.jpg" alt="A nice natural looking lodge. By Daniel Cox. Retrieved from https://unsplash.com/photos/UzCh9tp1VLs" class="info-image">
+					<figcaption><h1>KMSRT Donates $20,000 to the Kalmont COVID-19 Relief Fund</h1></figcaption>
+					</a>
+				</div>
+			</div>
 		</section>
 
 		<footer class="box footer">
