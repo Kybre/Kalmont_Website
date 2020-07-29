@@ -263,6 +263,11 @@ body{
     padding-right: 1rem;
 }
 
+.news-article-text{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
 .news-thumbnail-image{
     object-fit: cover;
     width: 100%;
