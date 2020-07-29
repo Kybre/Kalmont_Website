@@ -6,7 +6,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="css/header-footer.css" rel="stylesheet">
-		<link href="css/newsPage.css" rel="stylesheet" >
+		<link href="css/grid.css" rel="stylesheet">
+		<!--<link href="css/newsPage.css" rel="stylesheet" >-->
 
 		<!-- Lato font from google fonts -->
 		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -31,43 +32,49 @@
 		</header>
 
 		<!--main article-->
-		<article class="main-article">
-			<h1>KMSRT Donates $20000 to the Kalmont COVID-19 Relief Fund</h1>
+		<section id="main-article">
+			<div class="news-background">
+				<h1 class="news-title">KMSRT Donates $20000 to the Kalmont COVID-19 Relief Fund</h1>
+			</div>
+				<div class="color-bar">
+					<img src="img/covidDonation.png" alt="A nice natural looking lodge. By Daniel Cox. Retrieved from https://unsplash.com/photos/UzCh9tp1VLs" class="news-image">
+				</div>
+			<div class="news-background">
+				<h3><em>Published May 2, 2020</em></h3>
 
-			<section class="image-area">
-				<img src="img/covidDonation.png" alt="A nice natural looking lodge. By Daniel Cox. Retrieved from https://unsplash.com/photos/UzCh9tp1VLs" class="main-image">
-			</section>
+				<p>The Kalmont Mountain Safety and Rescue Team has donated $20,000 directly to the Kalmont COVID-19 Relief Fund in support of the government’s effort to combat COVID-19 within the region of Kalmont.</p>
 
-			<h3 class="main-article-text"><em>Published May 2, 2020</em></h3>
+				<p>Since February, more than $200,000 has been donated to the Kalmont COVID-19 Relief Fund. The local government directs this money to the appropriate organizations, in an attempt to have the region of Kalmont come together and combat COVID-19 together. The COVID-19 Relief Fund alone has allowed organizations to supply over 1 million protective masks, as well as tens of thousands of sets of protective equipment for our local healthcare workers.</p>
 
-			<p class="main-article-text">The Kalmont Mountain Safety and Rescue Team has donated $20,000 directly to the Kalmont COVID-19 Relief Fund in support of the government’s effort to combat COVID-19 within the region of Kalmont.</p>
+				<p>In a statement to the press, KMSRT Founder and President Dr. Victor Freeze said, “COVID-19 has placed us in troubling times, and it truly is disheartening to see this impact other people’s enjoyment of the outdoors. We hope the city of Kalmont can come together and overcome these turbulent times together, and build a better tomorrow.”</p>
+			</div>
 
-			<p class="main-article-text">Since February, more than $200,000 has been donated to the Kalmont COVID-19 Relief Fund. The local government directs this money to the appropriate organizations, in an attempt to have the region of Kalmont come together and combat COVID-19 together. The COVID-19 Relief Fund alone has allowed organizations to supply over 1 million protective masks, as well as tens of thousands of sets of protective equipment for our local healthcare workers.</p>
+			</div>
 
-			<p class="main-article-text">In a statement to the press, KMSRT Founder and President Dr. Victor Freeze said, “COVID-19 has placed us in troubling times, and it truly is disheartening to see this impact other people’s enjoyment of the outdoors. We hope the city of Kalmont can come together and overcome these turbulent times together, and build a better tomorrow.”</p>
-		</article>
+		</section>
+
+		<div class="break">
+		</div>
 
 		<!--other articles section-->
 		<section class="other-articles">
-		<h2>Other Articles</h2>
-
-		<div class="box other-news-container">
-			<!--other article 1-->
-			<div class="other-news-item">
-				<figure>
-					<img class="other-article-image" src="img/kalmontMask.png" alt="Face mask mockups made by Taylor using redbubble editor">
-					<figcaption class="other-article-link"><a href="newsKalmontMasks.html">New! KMSRT face masks on sale!</a></figcaption>
-				</figure>
-			</div> <!--end of div.box-item-1of2-->
-
-			<!--other article 2-->
-			<div class="other-news-item">
-				<figure>
-					<img class="other-article-image" src="img/covidClosure.png" alt="A natural green forest. By Paul Gilmore. Retrieved from https://unsplash.com/photos/4i97n6L0XuY">
-					<figcaption class="other-article-link"><a href="newsCovidClosure.html">Kalmont Ski Resort temporarily closes due to COVID-19</a></figcaption>
-				</figure>
-			</div> <!-- end of .box-item-1of2-->
-		</div> <!--end of div.box-->
+			<div class="color-bar">
+				<h2 class="box-header">Other Articles</h2>
+			</div>
+			<div class="box">
+				<div class="box-item-1of2">
+					<a href="newsKalmontMasks.html">
+					<img src="img/kalmontMask.png" alt="Face mask mockups made by Taylor using redbubble editor" class="info-image">
+					<figcaption><h1>New! KMSRT face masks on sale!</h1></figcaption>
+					</a>
+				</div>
+				<div class="box-item-1of2">
+					<a href="newsCovidClosure.html">
+					<img src="img/avalanche_hero.jpg" alt="A natural green forest. By Paul Gilmore. Retrieved from https://unsplash.com/photos/4i97n6L0XuY" class="info-image">
+					<figcaption><h1>Kalmont Ski Resort temporarily closes due to COVID-19</h1></figcaption>
+					</a>
+				</div>
+			</div>
 		</section>
 
 		<footer class="box footer">

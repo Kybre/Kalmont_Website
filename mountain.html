@@ -4,10 +4,10 @@
 
     <meta charset="utf-8">
 
-    <title>KMSRT Avalanche Safety</title>
+    <title>KMSRT Mountain Survival</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/info.css" rel="stylesheet">
-    <link href="css/info-flexbox.css" rel="stylesheet">
+    <!--<link href="css/info.css" rel="stylesheet">-->
+    <link href="css/grid.css" rel="stylesheet">
     <link href="css/header-footer.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
@@ -27,26 +27,27 @@
     </header>
     <!-- Start of page content -->
     <section id="hero">
-      <div class="box">
-        <div class="box-item-hero">
-          <img class="hero-img" src="img/mountain_hero.jpg" alt="A photo of a pine forest path" width="1600" height="640">
+      <div class="header-hero box">
+          <img class="header-image" src="img/mountain_hero.jpg" alt="A photo of a pine forest path" width="1600" height="640">
           <div class="hero-text">
             <h1>Mountain Safety</h1>
-            <h4>
+            <p>
               Travelling through a hiking trail provides visitors and travellers with a safe way to enjoy the vast mountain range and beautiful forests without worrying about getting lost. However, certain circumstances may prevent hikers from losing track of the trail and finding themselves lost in the mountains. It may be important to prepare to survive the night in the mountains if this is the case.
-            </h4>
+            </p>
           </div> <!-- end of hero-text -->
-        </div> <!-- end of box-item-hero -->
       </div> <!-- end of box -->
     </section>
 
+    <div class="break">
+    </div>
+
     <!-- Notes for mountain survival section -->
     <section id="notes">
-      <div class="box">
-        <div class="box-item-rcg">
-          <img class="rcg-img" src="img/mountain_notes.png" alt="An aerial photo of a snowy path">
+      <div class="box color-bar">
+        <div class="text-bar-1of4">
+          <img class="rcg-image" src="img/mountain_notes.png" alt="An aerial photo of a snowy path">
         </div> <!--end of box-item-rcg-img -->
-        <div class="box-item-rcg-text">
+        <div class="text-bar-3of4">
           <h2 class="subsection">Important notes to prepare for survival:</h2>
           <p class="white-text">
             To help improve your chances of staying safe if you get lost, there are some considerations you must take before arriving at the mountains.
@@ -76,11 +77,15 @@
       </div> <!--end of box-->
     </section>
 
+    <div class="break">
+    </div>
+
     <!-- Steps section -->
     <section id="steps">
-      <h2 class="subsection">Steps to take if you find yourself stranded in the mountains:</h2>
+      <div class="color-bar">
+      <h2 class="box-header">Steps to take if you find yourself stranded in the mountains:</h2>
       <div class="box">
-        <div class="box-item-step">
+        <div class="step-item-1of3">
           <img class="step-img" src="img/mountain_step1.jpg" alt="A photo of mountain cliffside" width="536" height="445">
           <h3>Start a fire:</h3>
           <p>
@@ -96,7 +101,7 @@
             Light the tinder, then gently blow on the sparks to grow them into flame. Once the kindling catches, add a few more pieces to start building a bed of embers. When you’ve got embers and burning kindling going, begin adding larger fuel wood.
           </p>
         </div> <!--end of box-item-step-->
-        <div class="box-item-step">
+        <div class="step-item-1of3">
           <img class="step-img" src="img/mountain_step2.jpg" alt="A photo of a first aid backpack" width="536" height="445">
           <h3>Find shelter:</h3>
           <p>Below are some examples: </p>
@@ -110,7 +115,7 @@
             Bivy: Get in a sleeping bag and lay down for a good night! Usually, people do this in cracks in rocks or in a dug trench. This is about as basic as it gets, of course. In other words, only if you have to.
           </p>
         </div> <!--end of box-item-step-->
-        <div class="box-item-step">
+        <div class="step-item-1of3">
           <img class="step-img" src="img/mountain_step3.jpg" alt="An photo of a skiier looking uphill" width="536" height="445">
           <h3>Call for help:</h3>
           <p> If you are in an alpine area, you should use the alpine distress signal, which works as follows: </p>
@@ -141,22 +146,34 @@
           <p> 3 dots, 3 dashes, then 3 dots, or 3 short flashes, 3 long flashes, then 3 short flashes. </p>
         </div> <!--end of box-item-step-->
       </div> <!--end of box-->
+      </div>
     </section>
+
+    <div class="break">
+    </div>
 
     <!-- Other pages section -->
     <section id="pages">
-      <h2 class="subsection">Other Pages:</h2>
+      <div class="color-bar">
+      <h2 class="box-header">Other Pages:</h2>
+      </div>
       <div class="box">
-        <div class="box-item-pages">
-          <img class="page-img" src="img/avalanche_hero.jpg" alt="A photo of a mountain range" width="800" height="553">
-          <h2 class="page-link"><a href="avalanche.html">Avalanche safety: How to Recognize and Prepare for an Avalanche</a></h2>
-        </div> <!--end of box-item-pages-->
-        <div class="box-item-pages">
-          <img class="page-img" src="img/hypothermia_hero.jpg" alt="An aerial photo of a snowy, misty forest" width="800" height="553">
-          <h2 class="page-link"><a href="hypothermia.html">Hypothermia: Warning Signs and Preventative Measures</a></h2>
-        </div> <!--end of box-item-pages-->
+        <div class="box-item-1of2">
+          <a href="avalanche.html">
+          <img src="img/avalanche_hero.jpg" alt="A photo of a mountain range" class="info-image">
+          <figcaption><h1>Avalanche safety: How to recognize and prepare for an avalanche</h1></figcaption>
+          </a>
+      </div>
+      <div class="box-item-1of2">
+        <a href="hypothermia.html">
+        <img src="img/hypothermia_hero.jpg" alt="An aerial photo of a snowy, misty forest" class="info-image">
+        <figcaption><h1>Hypothermia: Warning signs and preventative measures</h1></figcaption>
+        </a>
+      </div>
       </div> <!--end of box-->
     </section>
+
+
 
     <footer class="box footer">
 

@@ -6,9 +6,9 @@
 
     <title>KMSRT Avalanche Safety</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/info.css" rel="stylesheet">
-    <link href="css/info-flexbox.css" rel="stylesheet">
     <link href="css/header-footer.css" rel="stylesheet">
+    <!--<link href="css/info.css" rel="stylesheet">-->
+    <link href="css/grid.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
   </head>
@@ -27,32 +27,36 @@
         </nav>
     </header>
     <!-- Start of page content -->
+
     <section id="hero">
-      <div class="box">
-        <div class="box-item-hero">
-          <img class="hero-img" src="img/avalanche_hero.jpg" alt="A photo of a mountain range" width="1600" height="640">
+      <div class="header-hero box">
+          <img class="header-image" src="img/avalanche_hero.jpg" alt="A photo of a mountain range" width="1600" height="640">
           <div class="hero-text">
+            <figcaption>
             <h1>Avalanche Safety</h1>
-            <h4>
+            <p>
               Avalanches can happen whenever there is snow lying on the ground at a sufficient angle. Every year there are avalanche accidents in the Scottish hills. While there is always an avalanche risk in winter, some of these accidents could have been avoided by awareness and planning.
-            </h4>
-            <h4>
+            </p>
+            <p>
               Bear in mind that if there is significant snowfall during a day out, the conditions can change very quickly and make your planned route hazardous. The route which you followed earlier in the day may be avalanche prone when you return.
-            </h4>
+            </p>
+          </figcaption>
           </div> <!-- end of hero-text -->
-        </div> <!-- end of box-item-hero -->
       </div> <!-- end of box -->
     </section>
 
+    <div class="break">
+    </div>
+
     <!-- Recognizing avalanches section -->
     <section id="recognize">
-      <div class="box">
-        <div class="box-item-rcg">
-          <img class="rcg-img" src="img/avalanche_recognize.jpg" alt="A photo of a skiier looking at the horizon">
-        </div> <!--end of box-item-rcg-img -->
-        <div class="box-item-rcg-text">
-          <h2 class="subsection">Common causes of an avalanche:</h2>
-          <ul class="white-text">
+      <div class="box color-bar">
+        <div class="text-bar-1of4">
+          <img class="rcg-image" src="img/avalanche_recognize.jpg" alt="A photo of a skiier looking at the horizon">
+        </div> <!--text-bar-1of4 -->
+        <div class="text-bar-3of4">
+          <h2>Common causes of an avalanche:</h2>
+          <ul>
             <li class="li-item"> Visible avalanche activity. If you see avalanche activity on a slope where you intend to go, go somewhere else. </li>
             <li class="li-item"> New snow build-up. More than 2 cm/hr may produce unstable conditions. More than 30 cm. continuous build-up is regarded as very hazardous. 90% of all avalanches occur during snowstorms. </li>
             <li class="li-item"> Slab (Stronger snow overlying weaker snow) lying on ice or compact snow, with or without aggravating factors such as thaw. </li>
@@ -60,15 +64,19 @@
             <li class="li-item"> Sudden temperature rise. The nearer this brings the snow temperature to zero degrees C, the higher the hazard, even if thawing does not occur. </li>
             <li class="li-item"> Feels unsafe. The "seat of the pants" feeling of the experienced observer deserves respect. </li>
           </ul>
-        </div> <!--end of box-item-rcg -->
+        </div> <!--end of text-bar-3of4 -->
       </div> <!--end of box-->
     </section>
 
+    <div class="break">
+    </div>
+
     <!-- Steps section -->
     <section id="steps">
-      <h2 class="subsection">Steps to take in an avalanche:</h2>
-      <div class="box">
-        <div class="box-item-step">
+      <div class="color-bar">
+      <h2 class="box-header">Steps to take in an avalanche:</h2>
+        <div class = "box">
+        <div class="step-item-1of3">
           <img class="step-img" src="img/avalanche_step1.jpg" alt="A photo of a mountains being reflected off a river's surface" width="536" height="445">
           <h3>If Caught:</h3>
           <p>
@@ -84,7 +92,7 @@
             <li class="li-item"> As the avalanche slows down, you may be able to get some purchase on the debris. Make a desperate effort to get to the surface, or at least get a hand through. </li>
            </ul>
         </div> <!--end of box-item-step-->
-        <div class="box-item-step">
+        <div class="step-item-1of3">
           <img class="step-img" src="img/avalanche_step2.jpg" alt="A photo of a man staring off into a mountain range" width="536" height="445">
           <h3>If Buried:</h3>
           <ul>
@@ -93,7 +101,7 @@
             <li class="li-item"> Try to avoid panic and conserve energy. Your companions are probably searching for you. </li>
           </ul>
         </div> <!--end of box-item-step-->
-        <div class="box-item-step">
+        <div class="step-item-1of3">
           <img class="step-img" src="img/avalanche_step3.jpg" alt="An aerial photo of a snowy, misty forest" width="536" height="445">
           <h3>Avalanche Rescue:</h3>
           <p>
@@ -111,26 +119,37 @@
             Remember that you are the buried victim's only real chance of live rescue. Although survival chances decline rapidly with the duration of burial, they do not reach zero for a long time.<br>
           </p>
         </div> <!--end of box-item-step-->
-      </div> <!--end of box-->
+        </div> <!-- end of box-->
+      </div> <!--End of color bar-->
     </section>
+
+    <div class="break">
+    </div>
 
     <!-- Other pages section -->
     <section id="pages">
-      <h2 class="subsection">Other Pages:</h2>
+      <div class="color-bar">
+      <h2 class="box-header">Other Pages:</h2>
+      </div>
       <div class="box">
-        <div class="box-item-pages">
-          <img class="page-img" src="img/hypothermia_hero.jpg" alt="An aerial photo of a snowy, misty forest" width="800" height="553">
-          <h2 class="page-link"><a href="hypothermia.html">Hypothermia: Warning Signs and Preventative Measures</a></h2>
-        </div> <!--end of box-item-pages-->
-        <div class="box-item-pages">
-          <img class="page-img" src="img/mountain_hero.jpg" alt="A photo of a pine forest path" width="800" height="553">
-          <h2 class="page-link"><a href="mountain.html">Mountain Safety: How to Survive in the Mountains</a></h2>
-        </div> <!--end of box-item-pages-->
+        <div class="box-item-1of2">
+          <a href="hypothermia.html">
+          <img src="img/hypothermia_hero.jpg" alt="An aerial photo of a snowy, misty forest" class="info-image">
+          <figcaption><h1>Hypothermia: Warning signs and preventative measures</h1></figcaption>
+          </a>
+      </div>
+      <div class="box-item-1of2">
+        <a href="mountain.html">
+        <img src="img/mountain_hero.jpg" alt="A photo of a pine forest path" class="info-image">
+        <figcaption><h1>Mountain Safety: How to survive in the mountains</h1></figcaption>
+        </a>
+      </div>
       </div> <!--end of box-->
     </section>
 
-    <footer class="box footer">
 
+
+    <footer class="box footer">
       <!--Social Media Links-->
       <div class="box-item-footer">
         <h3>Find Us On</h3>

@@ -6,7 +6,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="css/header-footer.css" rel="stylesheet">
-		<link href="css/newsPage.css" rel="stylesheet" >
+		<link href="css/grid.css" rel="stylesheet">
+		<!--<link href="css/newsPage.css" rel="stylesheet" >-->
 
 		<!-- Lato font from google fonts -->
 		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -31,44 +32,52 @@
 		</header>
 
 		<!--main article-->
-		<article class="main-article">
-			<h1>New! KMSRT face masks on sale!</h1>
+		<section id="main-article">
+			<div class="news-background">
+				<h1 class="news-title">Kalmont Ski Resort temporarily closes due to COVID-19</h1>
+			</div>
+				<div class="color-bar">
+					<img src="img/kalmontMask.png" alt="kmsrt mask mockups made by taylor on redbubble editor" class="news-image">
+				</div>
+			<div class="news-background">
+				<h3><em>Published June 1, 2020</em></h3>
 
-			<section class="image-area">
-				<img src="img/kalmontMask.png" alt="kmsrt mask mockups made by taylor on redbubble editor" class="main-image">
-			</section>
+				<p>We at the Kalmont Mountain Safety and Rescue Team are proud to announce that starting tomorrow, June 2nd, we will be offering new, KMSRT branded face masks! Show your Kalmont spirit in two colours: Kalmont Blue and Rescue Red, in sizes for children and adults. 50% of all mask sales will go towards Kalmont City’s COVID-19 Relief Fund.</p>
 
-			<h3 class="main-article-text"><em>Published June 1, 2020</em></h3>
+				<p>Stop by the Kalmont Mountain Lodge Gift Shop, or visit  www.shopkalmont.ca from the comfort of your home to get your very own KMSRT mask for the low, low price of $12.99, while supplies last. We are also offering a special 20% off of all T-shirts and water bottles.</p>
 
-			<p class="main-article-text">We at the Kalmont Mountain Safety and Rescue Team are proud to announce that starting tomorrow, June 2nd, we will be offering new, KMSRT branded face masks! Show your Kalmont spirit in two colours: Kalmont Blue and Rescue Red, in sizes for children and adults. 50% of all mask sales will go towards Kalmont City’s COVID-19 Relief Fund.</p>
+				<p>NOTE**: The wearing of masks in public places is recommended by the BC Ministry of health. Social distancing measures still apply. KMSRT masks are not medical-grade and are therefore only recommended for non-medical use. The KMSRT is not liable for any ailments caught while wearing KMSRT branded masks.</p>
+			</div>
 
-			<p class="main-article-text">Stop by the Kalmont Mountain Lodge Gift Shop, or visit  www.shopkalmont.ca from the comfort of your home to get your very own KMSRT mask for the low, low price of $12.99, while supplies last. We are also offering a special 20% off of all T-shirts and water bottles.</p>
+			</div>
 
-			<p class="main-article-text">NOTE**: The wearing of masks in public places is recommended by the BC Ministry of health. Social distancing measures still apply. KMSRT masks are not medical-grade and are therefore only recommended for non-medical use. The KMSRT is not liable for any ailments caught while wearing KMSRT branded masks.</p>
-		</article>
+		</section>
+
+		<div class="break">
+		</div>
 
 		<!--other articles section-->
 		<section class="other-articles">
-		<h2>Other Articles</h2>
-
-		<div class="box other-news-container">
-			<!--other article 1-->
-			<div class="other-news-item">
-				<figure>
-					<img class="other-article-image" src="img/covidClosure.png" alt="A natural green forest. By Paul Gilmore. Retrieved from https://unsplash.com/photos/4i97n6L0XuY">
-					<figcaption class="other-article-link"><a href="newsCovidClosure.html">Kalmont Ski Resort temporarily closes due to COVID-19</a></figcaption>
-				</figure>
-			</div> <!--end of div.box-item-1of2-->
-
-			<!--other article 2-->
-			<div class="other-news-item">
-				<figure>
-					<img class="other-article-image" src="img/covidDonation.png" alt="A nice natural looking lodge. By Daniel Cox. Retrieved from https://unsplash.com/photos/UzCh9tp1VLs">
-					<figcaption class="other-article-link"><a href="newsCovidDonation.html">KMSRT Donates $20,000 to the Kalmont COVID-19 Relief Fund</a></figcaption>
-				</figure>
-			</div> <!-- end of .box-item-1of2-->
-		</div> <!--end of div.box-->
+			<div class="color-bar">
+				<h2 class="box-header">Other Articles</h2>
+			</div>
+			<div class="box">
+				<div class="box-item-1of2">
+					<a href="newsCovidClosure.html">
+					<img src="img/covidClosure.png" alt="A natural green forest. By Paul Gilmore. Retrieved from https://unsplash.com/photos/4i97n6L0XuY" class="info-image">
+					<figcaption><h1>Kalmont Ski Resort temporarily closes due to COVID-19</h1></figcaption>
+					</a>
+				</div>
+				<div class="box-item-1of2">
+					<a href="newsCovidDonation.html">
+					<img src="img/avalanche_hero.jpg" alt="A nice natural looking lodge. By Daniel Cox. Retrieved from https://unsplash.com/photos/UzCh9tp1VLs" class="info-image">
+					<figcaption><h1>KMSRT Donates $20,000 to the Kalmont COVID-19 Relief Fund</h1></figcaption>
+					</a>
+				</div>
+			</div>
 		</section>
+
+
 
 		<footer class="box footer">
 
