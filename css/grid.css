@@ -78,7 +78,34 @@ body{
 .info-image{
     object-fit: cover;
     width:100%;
-    height:75vh;
+    height:50vh;
+}
+
+/*Sliding overlay without javascript from w3schools
+https://www.w3schools.com/howto/howto_css_image_overlay_slide.asp
+*/
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#000000B9;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+.overlay-text{
+    margin:1rem;
+    color:white;
+}
+  
+.box-item-1of2:hover .overlay {
+    height: 100%;
+}
+.box-item-1of2:hover figcaption {
+    background:#00000000;
+    transition: .5s ease;
 }
 
 .box-item-1of2 figcaption{
@@ -91,7 +118,11 @@ body{
     bottom:0;
     left:0;
     width:100%;
+
+    transition: .5s ease;
 }
+
+
 
 @media (max-width:900px){
 	.box-item-1of2{
@@ -125,11 +156,15 @@ body{
     margin:1rem;
 
 }
-.news-image{
+.index-news-image{
     object-fit:cover;
     width:100%;
-    height:50%;
+    height:25vh;
 
+}
+.index-news-text{
+    padding-left:1rem;
+    padding-right:1rem;
 }
 
 .news-bar a figcaption{
@@ -142,7 +177,7 @@ body{
         flex-basis:100%;
         margin-top: 0;
     }
-    .news-image{
+    .index-news-image{
         object-fit:cover;
         width:100%;
         height:50vh;
@@ -220,6 +255,19 @@ body{
     object-fit: cover;
 }
 
+.info-text{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.hypothermia-description{
+    color: white;
+    padding-left: 1rem;
+}
+
+#recognize .color-bar{
+    margin-bottom: 5rem;
+}
 
 /*News stuff*/
 .news-item-1of2{
@@ -281,4 +329,20 @@ body{
     padding-right: 1rem;
     padding-top:1rem;
     padding-bottom:1rem;
+}
+
+.news-image{
+    padding-left:10rem;
+    padding-right:10rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    width:100%;
+    height:75vh;
+    object-fit: cover;
+}
+@media(max-width:900px){
+    .news-image{
+        padding-left:1rem;
+        padding-right:1rem;
+    }
 }
