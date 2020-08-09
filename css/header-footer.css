@@ -114,13 +114,12 @@ footer li{
     margin-left:25rem;
 }
 
-.footer-right{
-    align-content:flex-end;
-}
-
 @media(max-width:900px){
     .footer-left{
         margin-left:0rem;
+    }
+    .box-item-footer{
+        margin-left:1rem;
     }
 }
 
