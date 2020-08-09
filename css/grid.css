@@ -78,7 +78,7 @@ body{
 .info-image{
     object-fit: cover;
     width:100%;
-    height:50vh;
+    height:35vh;
 }
 
 /*Sliding overlay without javascript from w3schools
