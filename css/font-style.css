@@ -40,6 +40,10 @@
     transition: background-color 0.5s;
 }
 
+.li-item{
+    padding-right:1rem;
+}
+
 @media(max-width:900px){
     .hero-text h1{
         font-size:2rem;
