@@ -18,6 +18,10 @@
     font-size:1.25rem;
 }
 
+.more-news-text{
+    padding-left: 1rem;
+}
+
 @media(max-width:900px){
     .hero-text h1{
         font-size:2rem;
