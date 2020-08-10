@@ -12,6 +12,11 @@
 
 .news-title{
     font-size:3rem;
+    padding:0.5rem;
+}
+
+.news-background h3{
+    padding:0.5rem;
 }
 
 .news-article-text{
@@ -43,6 +48,9 @@
 .li-item{
     padding-right:1rem;
     font-size:1.25rem;
+    list-style-type: none;
+
+    margin: 0 0 0.75rem 0;
 }
 
 p.info-text,p.white-text{
@@ -77,6 +85,10 @@ h4.white-text{
         padding-right: 1rem;
     }
 
+    .news-background h3{
+        padding:0rem;
+    }
+
     .news-background em{
         padding-left: 1rem;
     }
@@ -87,5 +99,7 @@ h4.white-text{
     h3.info-text,h3.white-text{
         font-size:1.25rem;
     }
-
+    .li-item{
+        font-size:1rem;
+    }
 }
